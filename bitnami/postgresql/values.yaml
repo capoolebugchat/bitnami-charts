@@ -990,7 +990,7 @@ readReplicas:
       - ReadWriteOnce
     ## @param readReplicas.persistence.size PVC Storage Request for PostgreSQL volume
     ##
-    size: 3Gi
+    size: 2Gi
     ## @param readReplicas.persistence.annotations Annotations for the PVC
     ##
     annotations: {}
